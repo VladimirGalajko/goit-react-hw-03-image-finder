@@ -13,7 +13,6 @@ export const notifiToast = (text,type) => {
     theme: 'colored',
     toastId: 'custom-id-yes',
   });
-
 }
 else {
     toast.error(text, {
